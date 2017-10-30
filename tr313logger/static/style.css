@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 使ってない: 検索ボックスを一番上に map とは別で持つ場合 */
+#search_box {
+    background-color: #FF0FF0;
+    padding: 10px 20px;
+}
+
+#floating_search_box {
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    z-index: 5;
+    background-color: #FF6FF6;
+    padding: 5px 10px;
+    border: 1px solid #999;
+}
+
+#map {
+  height: 100%;
+}

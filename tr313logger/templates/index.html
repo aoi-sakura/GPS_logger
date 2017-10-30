@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google Maps API Template</title>
+
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <form id="floating_search_box">
+        <input type="hidden" id="googlemap_key" value="{{googlemap_key}}">
+        <input type="text" value="2017/09/24 00:00:00" id="from_date"> 〜
+        <input type="text" value="2017/09/25 00:00:00" id="to_date">
+        <input type="button" name="submit" value="検索" id="button">
+        <input type="button" name="submit" value="最新" id="latest_button">
+    </form>
+    <div id="map"></div>
+
+    <script src="/static/script.js" defer></script>
+</body>
+</html>

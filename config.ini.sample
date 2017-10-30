@@ -1,0 +1,11 @@
+[app:main]
+host = localhost
+sqlalchemy.url = sqlite:///log_db.sqlite3
+
+[app:web]
+port = 8989
+cookie_secret = __TODO_here_is_cookie_secret__
+googlemap_key = __TODO_here_is_googlemap_key__
+
+[app:logger]
+port = 5000
